@@ -384,7 +384,9 @@ img {
   top:-4.5rem;
   left:0;
   right:0;
-  width:350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:130px;
   margin:0 auto;
   transition: transform .4s;
 }
@@ -399,6 +401,17 @@ img {
   margin:0 auto;
   transition: transform .4s;
 }
+
+.shop__big-2img{
+  position:absolute;
+  top:-4.5rem;
+  left:0;
+  right:0;
+  width:100px;
+  margin:0 auto;
+  transition: transform .4s;
+}
+
 
 .shop__title{
 font-size: var(--small-font-size);
@@ -457,7 +470,17 @@ margin-bottom: .5rem;
   color:var(--first-color)
 }
 
-
+.discount__img{
+  position:absolute;
+  top:-4.5rem;
+  left:0;
+  right:0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width:200px;
+  margin:0 auto;
+  transition: transform .4s;
+}
 
 
 /*=============== CONTACT ===============*/
@@ -630,6 +653,7 @@ margin-bottom: .5rem;
     margin-top: 6rem;
   }
 
+
   .footer__content{
     grid-template-columns: max-content;
   }
@@ -644,15 +668,15 @@ margin-bottom: .5rem;
     justify-content:center;
   }
 
+ 
 
   .shop__container{
     grid-template-columns: repeat(2, 160px);
     justify-content: center;
   }
 
-  .shop__container{
-    grid-template-columns: repeat(1, 160px);
-    justify-content: center;
+  .shop__img{
+    top:-30px
   }
 
   .footer__content{
@@ -675,7 +699,7 @@ margin-bottom: .5rem;
   }
 
   .shop__container{
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(2, px);
     justify-content: center;
   }
 
@@ -695,6 +719,11 @@ margin-bottom: .5rem;
     padding-top: 2rem;
     transition: transform .4s;
   }
+
+  .shop__img{
+    width: 210px;
+    top:-5.5rem;
+   }
 
 
   .footer__container{
