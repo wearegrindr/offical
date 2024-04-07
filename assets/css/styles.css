@@ -126,6 +126,7 @@ img {
 }
 
 .nav{
+  top: 2rem;
   position:relative;
   height: var(--header-height);
   display: flex;
@@ -134,12 +135,14 @@ img {
 }
 
 .nav__logo,
+.nav__link,
 .nav__close,
 .nav__toggle,
 .nav__actions{
   display: flex;
   color: var(--title-color);
   cursor: pointer;
+  font-size: 1.3rem;
 }
 
 .nav__logo{
@@ -167,13 +170,16 @@ img {
     top:0;
     right:-100%;
     background-color: hsla(228, 24%, 6%,.2);
-    backdrop-filter: blur(25px) ;
-    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(16px) ;
+    -webkit-backdrop-filter: blur(16px);
     width: 20%;
     height: 100%;
     padding: 6rem 3rem 0;
     transition: right .4s;
 
+  }
+  .nav__link{
+    font-size: 1rem;
   }
 }
 
@@ -210,13 +216,13 @@ img {
   content: '';
   position: absolute;
   width:1000%;
-  height:100%;
+  height:5rem;
   background-color: hsla(228, 24%, 6%,.2);
-  backdrop-filter: blur(16px);
-  --webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(25px);
+  --webkit-backdrop-filter: blur(25px);
   top:0;
   left:0;
-  z-index:-1;
+  z-index: -1;
 }
 
 /* Active link */
@@ -299,6 +305,9 @@ img {
 }
 
 /*=============== NEWS ===============*/
+.new__description{
+  padding-bottom: 2rem;
+}
 .new__data{
   text-align: center;
 }
@@ -601,13 +610,13 @@ margin-bottom: .5rem;
   .shop__container{
     grid-template-columns: 160px;
     justify-content: center;
+    margin-top: 2rem;
   }
 
   .shop__big-container{
     grid-template-columns: 160px;
     justify-content: center;
-    padding: 7rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
 
   .footer__content{
@@ -855,6 +864,6 @@ margin-bottom: .5rem;
 
    .scrollup{
      right:3rem;
-
    }
+
  }
