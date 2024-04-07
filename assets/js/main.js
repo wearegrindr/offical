@@ -93,17 +93,16 @@ function change() {
     }
   }
 
-var text2 = ["Something", "Everything", "Nothing", "Special"];
+var text2 = [" Create custom-made gifts that are tailored to your loved ones' interests, such as personalized keychains, photo frames, or jewelry. These thoughtful items cannot be found in stores, making them all the more special.", "Design and print your own home decorations, like vases, lampshades, or wall art. Match them perfectly to your home's aesthetic or create something that stands out as a conversation piece.", "Need a holder for your smartphone or a custom organizer for your tools? How about a unique case for your glasses? With 3D printing, you can design and print practical items tailored to your specific needs.", "Broken a small, irreplaceable part of a household item? Instead of replacing the entire device, you can often print a new part, saving money and reducing waste.", "If you've ever had an idea for a product or an invention, 3D printing is the perfect way to create a prototype and test your concept, making the journey from idea to reality faster and less expensive.", "With materials like biodegradable PLA, you can create useful objects and beautiful art without the environmental guilt. Plus, printing what you need, when you need it, helps reduce waste.","Design and print your own jewelry, accessories, or elements of clothing, allowing for unprecedented creativity and personal expression in fashion.","Artists can experiment with digital sculptures and models that are then brought into the physical world through 3D printing, pushing the boundaries of traditional art forms."];
 var counter2 = 0;
 
 var elem2 = document.getElementById("changeParagraph");
 var inst2 = setInterval(change2, 5000);
 function change2() {
-  elem2.innerHTML = text2[counter];
-  counter++;
+  elem2.innerHTML = text2[counter2];
+  counter2++;
   if (counter2 >= text2.length) {
     counter2 = 0;
     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   }
-  console.log(counter2);
 }
