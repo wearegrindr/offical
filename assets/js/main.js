@@ -79,3 +79,31 @@ sr.reveal('.home_-img, .new__data, .care__img, .contact__content, .footer')
 sr.reveal('.home__data, .care__list, contact__img, {delay:500}')
 sr.reveal('.new__card, {delay:500, interval:100}')
 sr.reveal('.shop__card, { interval:100}')
+
+var text = ["EVERYDAY SOLUTIONS", "PERSONALISED GIFTS", "ARTISTIC EXPRESSION", "PROTOTYPING"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 1500);
+function change() {
+    elem.innerHTML = text[counter];
+    counter++;
+    if (counter >= text.length) {
+      counter = 0;
+      // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+    }
+  }
+
+var text2 = ["Something", "Everything", "Nothing", "Special"];
+var counter2 = 0;
+
+var elem2 = document.getElementById("changeParagraph");
+var inst2 = setInterval(change2, 5000);
+function change2() {
+  elem2.innerHTML = text2[counter];
+  counter++;
+  if (counter2 >= text2.length) {
+    counter2 = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+  console.log(counter2);
+}

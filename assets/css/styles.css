@@ -349,21 +349,18 @@ img {
 }
 /*=============== SHOP ===============*/
 .shop__container{
-  padding-top: 6.5 rem;
+  padding-top: 6.5rem; 
   grid-template-columns: repeat(2, 1fr);
   gap: 6rem 1.5rem;
 }
 
-.shop__container{
-  padding-top: 6.5 rem;
+.shop__big-container{
+  padding-top: 8 rem;
   margin-top: 5rem;
   gap: 6rem 1.5rem;
 }
 
-.shop__big-container{
-  padding-top: 6.5 rem;
-  gap: 6rem 1.5rem;
-}
+
 
 .shop__card{
   position:relative;
@@ -414,7 +411,7 @@ margin-bottom: .5rem;
 }
 /*=============== CARE ===============*/
 .care__container{
-  padding-top:2 rem;
+  padding-top: 2rem;
   row-gap:2rem;
 }
 
@@ -472,9 +469,9 @@ margin-bottom: .5rem;
   column-gap: .75rem;
 }
 
-.conatct__social a {
+.contact__social a {
   color: var(--first-color);
-  font-size: 1.5rem;
+  font-size:  2rem;
 }
 
 .conatct__info{
@@ -606,9 +603,11 @@ margin-bottom: .5rem;
     justify-content: center;
   }
 
-  .shop__container{
+  .shop__big-container{
     grid-template-columns: 160px;
     justify-content: center;
+    padding: 7rem;
+    margin-top: 7rem;
   }
 
   .footer__content{
@@ -656,12 +655,12 @@ margin-bottom: .5rem;
   }
 
   .shop__container{
-    grid-template-columns: repeat(3, 160px);
+    grid-template-columns: repeat(2, 160px);
     justify-content: center;
   }
 
   .shop__big-container{
-    grid-template-columns: repeat(1, 160px);
+    grid-template-columns: repeat(1, 330px);
     justify-content: center;
   }
 
@@ -755,14 +754,14 @@ margin-bottom: .5rem;
    }
 
    .shop__container{
-     grid-template-columns: repeat(3,240px);
+     grid-template-columns: repeat(2,400px);
      gap: 8.5rem 4rem;
      padding-top: 7.5rem;
      justify-content: center;
    }
 
    .shop__big-container{
-    grid-template-columns: repeat(1,400px);
+    grid-template-columns: repeat(1,700px);
     gap: 8.5rem 4rem;
     padding-top: 7.5rem;
     justify-content: center;
