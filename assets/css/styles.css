@@ -354,6 +354,17 @@ img {
   gap: 6rem 1.5rem;
 }
 
+.shop__container{
+  padding-top: 6.5 rem;
+  margin-top: 5rem;
+  gap: 6rem 1.5rem;
+}
+
+.shop__big-container{
+  padding-top: 6.5 rem;
+  gap: 6rem 1.5rem;
+}
+
 .shop__card{
   position:relative;
   background: var(--gradient-card);
@@ -595,6 +606,11 @@ margin-bottom: .5rem;
     justify-content: center;
   }
 
+  .shop__container{
+    grid-template-columns: 160px;
+    justify-content: center;
+  }
+
   .footer__content{
     grid-template-columns: max-content;
   }
@@ -609,8 +625,14 @@ margin-bottom: .5rem;
     justify-content:center;
   }
 
+
   .shop__container{
     grid-template-columns: repeat(2, 160px);
+    justify-content: center;
+  }
+
+  .shop__container{
+    grid-template-columns: repeat(1, 160px);
     justify-content: center;
   }
 
@@ -635,6 +657,12 @@ margin-bottom: .5rem;
 
   .shop__container{
     grid-template-columns: repeat(3, 160px);
+    justify-content: center;
+  }
+
+  .shop__big-container{
+    grid-template-columns: repeat(1, 160px);
+    justify-content: center;
   }
 
   .footer__container{
@@ -733,6 +761,13 @@ margin-bottom: .5rem;
      justify-content: center;
    }
 
+   .shop__big-container{
+    grid-template-columns: repeat(1,400px);
+    gap: 8.5rem 4rem;
+    padding-top: 7.5rem;
+    justify-content: center;
+  }
+
    .shop__card{
      padding: 10.5rem 1.5rem 2rem;
      border-radius: 1.5rem;
@@ -786,7 +821,7 @@ margin-bottom: .5rem;
      row-gap: 2.5rem;
    }
 
-   .conatct__social{
+   .contact__social{
      justify-content: initial;
    }
 
