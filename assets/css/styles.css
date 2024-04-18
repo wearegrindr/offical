@@ -652,7 +652,11 @@ margin-bottom: .5rem;
     justify-content: center;
     margin-top: 6rem;
   }
-
+  
+  .discount__img{
+    top:-30px;
+    padding-bottom: 3rem;
+  }
 
   .footer__content{
     grid-template-columns: max-content;
@@ -668,7 +672,10 @@ margin-bottom: .5rem;
     justify-content:center;
   }
 
- 
+  .discount__img{
+    top:-30px;
+    padding-bottom: 3rem;
+  }
 
   .shop__container{
     grid-template-columns: repeat(2, 160px);
